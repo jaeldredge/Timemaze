@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+<TextView  
+    android:text="@string/hello" android:textStyle="bold" android:textColor="#FFFF00" android:textSize="41px" android:layout_width="wrap_content" android:layout_height="45dp"/>
+<TextView  android:id="@+id/rules"
+    android:text="@string/rules" 
+    android:textStyle="bold" 
+    android:layout_height="144dp" 
+    android:textSize="30px" 
+    android:layout_width="match_parent" android:layout_weight="0.87"/>
+<Button android:id="@+id/optionsMenu" 
+		android:text="Difficulty" 
+		android:textStyle="bold" 
+		android:textColor="#000000"
+		android:layout_gravity="center" 
+		android:layout_width="106dp" 
+		android:layout_height="wrap_content">
+		</Button>
+<Button android:text="Highscores" 
+		android:id="@+id/highscores" 
+		android:layout_gravity="center" 
+		android:textStyle="bold" 
+		android:textColor="#000000"
+		android:layout_width="106dp" 
+		android:layout_height="wrap_content"></Button>
+<TextView  
+    android:text="@string/goodluck" android:textStyle="bold" android:layout_width="314dp" android:textColor="#00FF00" android:textSize="40px" android:layout_height="38dp"/>
+<Button android:id="@+id/play" 
+		android:text="Play Timemaze" 
+		android:textStyle="bold" 
+		android:textColor="#0000CD" 
+		android:layout_width="match_parent" 
+		android:textSize="50px" android:layout_height="86dp" android:layout_weight="0.15"></Button>
+</LinearLayout>

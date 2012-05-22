@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:id="@+id/hscores" 
+    		android:text="HighScores" 
+    		android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:layout_gravity="center_horizontal" 
+    		android:textColor="#FF0000"
+    		android:textSize="70px" 
+    		android:textStyle="bold"
+    		android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0.37">
+    		
+    		</TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:id="@+id/textView2" 
+    		android:text="Easy:" 
+    		android:textColor="#FFFF00"
+    		android:textSize="55px" 
+    		android:layout_gravity="center" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="50dp"></TextView>
+    <TextView android:text="15" 
+    		android:id="@+id/easyValue" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content"
+    		android:textColor="#FF8000"
+    		android:textSize="75px" 
+    		android:textStyle = "bold"
+    		android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:layout_gravity="center"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:id="@+id/textView3" 
+    		android:text="Medium:" 
+    		android:textColor="#FFFF00"
+    		android:textSize="55px" 
+    		android:layout_gravity="center" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="50dp"></TextView>
+    <TextView android:text="5" 
+   		 	android:id="@+id/mediumValue" 
+   		 	android:textColor="#FF8000"
+    		android:textSize="75px" 
+    		android:textStyle = "bold"
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:layout_gravity="center_horizontal"></TextView>
+    		<TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:id="@+id/textView2" 
+    		android:text="Hard:" 
+    		android:textColor="#FFFF00"
+    		android:textSize="55px" 
+    		android:layout_gravity="center" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="50dp"></TextView>
+    		<TextView android:text="27" 
+    			android:textColor="#FF8000"
+    			android:textSize="75px" 
+    			android:textStyle = "bold"
+    			android:id="@+id/hardValue" 
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content" 
+    			android:textAppearance="?android:attr/textAppearanceLarge" 
+    			android:layout_gravity="center_horizontal"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+    	android:id="@+id/blank" 
+    	android:text="" android:layout_width="match_parent" android:layout_height="14dp" android:layout_weight="0.26"></TextView>
+    <Button android:textColor="#6E6E6E" 
+    	android:id="@+id/backtooptions" 
+    	android:layout_width="match_parent" 
+    	android:textSize="70px" 
+    	android:textStyle="bold" 
+    	android:text="Back" 
+    	android:layout_height="wrap_content" android:layout_weight="0.41"></Button>
+  		
+  
+    
+</LinearLayout>

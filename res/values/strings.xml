@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcome to Timemaze,\n
+    </string>
+    <string name="app_name">Timemaze</string>
+    <string name="rules"> Here are the rules:\n
+    	1. Drag a line from the yellow dot to the blue dot.\n
+    	2. Do it before the clock ticks down to zero. \n
+    	3. The alloted time per maze will get progressively shorter.\n\n
+    	See how many you can complete in a row.
+    </string>
+    <string name="goodluck">"           Good Luck!\n"</string>
+    <string name="transition">"Awesome, get ready for the next maze!"</string>
+    <string name="random">"R\nA\nN\nD\nO\nM"</string>
+    <string name="consolation">"Wonderful,\nyour score is the\namazing total of\n"</string>
+</resources>

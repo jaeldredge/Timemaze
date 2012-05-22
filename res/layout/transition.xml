@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+  <TextView   
+    android:text="@string/transition" 
+    android:id="@+id/transition"
+    android:textStyle="bold" 
+    android:textColor="#FF8C00" 
+    android:textSize="78px" android:layout_width="match_parent" android:layout_height="284dp" android:layout_weight="0.95"/>
+  <Button 
+  		android:text="Next Maze" 
+  		android:id="@+id/next" 
+  		android:layout_width="match_parent" 
+  		android:textStyle="bold" 
+		android:textColor="#6E6E6E" 
+		android:textSize="70px"
+  		android:layout_height="126dp" android:layout_weight="0.09"></Button>
+  		
+  
+    
+</LinearLayout>

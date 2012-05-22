@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:weightSum="1">
+    <TextView android:id="@+id/textView1" 
+    		android:text="End" 
+    		android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:layout_gravity="center_horizontal" 
+    		android:layout_width="128dp" 
+    		android:textColor="#00FF00"
+    		android:textSize="70px" 
+    		android:textStyle="bold"
+    		android:layout_height="53dp">
+    		
+    		</TextView>
+    <TextView android:text="@string/consolation" android:id="@+id/console" android:textSize="55px" android:textColor="#FFFF00" android:layout_gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="297dp" android:layout_height="135dp"></TextView>
+    <TextView android:id="@+id/score" android:textSize="250px" android:textColor="#0000CD" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_gravity="right" android:layout_width="228dp" android:layout_height="138dp" android:layout_weight="1.05"></TextView>
+    <TextView android:id="@+id/textView3" android:text="" android:layout_width="match_parent" android:layout_height="14dp"></TextView>
+    <Button android:text="View Highscores" 
+    		android:id="@+id/highscores" 
+    		android:layout_gravity="center_horizontal" 
+    		android:layout_width="231dp" 
+    		android:textSize="30px" 
+    		android:textStyle="bold"
+    		android:layout_height="wrap_content"></Button>
+    <Button android:textColor="#6E6E6E" 
+    	android:id="@+id/menu" 
+    	android:layout_width="match_parent" 
+    	android:textSize="70px" 
+    	android:textStyle="bold" 
+    	android:text="Next" android:layout_height="104dp"></Button>
+  		
+  
+    
+</LinearLayout>
